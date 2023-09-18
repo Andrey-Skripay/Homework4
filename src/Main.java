@@ -76,5 +76,20 @@ public class Main {
             System.out.println(" Есть места.");
         }
 
+        // Задача 7
+
+        int one = 10;
+        int two = 50;
+        int three = 30;
+
+        if (two > one && two < three && two != two) {
+            System.out.println(" Наибольшее число: " + two);
+        }
+            if (one < two && two < three) {
+                System.out.println(" Наибольшее число: " + three);
+        } else {
+            System.out.println(" Наимейшее число: " + one);
+        }
+
     }
 }

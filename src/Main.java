@@ -62,5 +62,19 @@ public class Main {
             System.out.println(" Если возраст ребенка равен " + ageOfTheChild + ", то он может кататься без сопровождения взрослого.");
         }
 
+        // Задача 6
+
+        int aSeatInTheCarriage = 65;
+
+        if (aSeatInTheCarriage > 102) {
+            System.out.println(" Мест в вагоне, сидячих и стоячих больше нет.");
+        }
+
+        if (aSeatInTheCarriage >=  60) {
+            System.out.println(" Мест в вагоне, сидячих больше нет.");
+        } else {
+            System.out.println(" Есть места.");
+        }
+
     }
 }

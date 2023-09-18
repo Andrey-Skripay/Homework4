@@ -48,5 +48,19 @@ public class Main {
         }
 
 
+        // Задача 5
+
+        int ageOfTheChild = 15;
+
+        if (ageOfTheChild < 5) {
+            System.out.println(" Если возраст ребенка равен " + ageOfTheChild + ", то ему нельзя кататься на аттракционе.");
+        }
+
+        if (ageOfTheChild > 5 && ageOfTheChild < 14 ) {
+            System.out.println(" Если возраст ребенка равен " + ageOfTheChild + ", то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя.");
+        } else {
+            System.out.println(" Если возраст ребенка равен " + ageOfTheChild + ", то он может кататься без сопровождения взрослого.");
+        }
+
     }
 }

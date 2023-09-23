@@ -30,7 +30,7 @@ public class Main {
         }
 
         // Задача 4
-        int ageOfThePerson = 1;
+        int ageOfThePerson = 25;
 
         if (ageOfThePerson >= 2 && ageOfThePerson <= 6)  {
             System.out.println(" Если возраст человека равен " + ageOfThePerson + ", то ему нужно ходить в детский сад.");
@@ -43,14 +43,14 @@ public class Main {
         if (ageOfThePerson >= 18 && ageOfThePerson <= 24) {
             System.out.println(" Если возраст человека равен " + ageOfThePerson + ", то ему нужно ходить в университете.");
 
-        } else {
-            System.out.println(" Если возраст человека равен " + ageOfThePerson + ", то ему нужно ходить на работу.");
+        } else if (ageOfThePerson >24 ){
+            System.out.println(" Если возраст человека  " + ageOfThePerson + ", то ему нужно ходить на работу.");
         }
 
 
         // Задача 5
 
-        int ageOfTheChild = 20;
+        int ageOfTheChild = 3;
 
         if (ageOfTheChild < 5) {
             System.out.println(" Если возраст ребенка равен " + ageOfTheChild + ", то ему нельзя кататься на аттракционе.");
@@ -60,7 +60,7 @@ public class Main {
             System.out.println(" Если возраст ребенка равен " + ageOfTheChild + ", то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя." );
 
         } else {
-            System.out.println( "Если возраст ребенка равен " + ageOfTheChild + ", то ему можно кататься на аттракционе без сопровождения взрослого.");
+            System.out.println( "Если возраст ребенка равен " + ageOfTheChild + ", то он может кататься без сопровождения взрослого.");
         }
 
         // Задача 6
@@ -71,13 +71,13 @@ public class Main {
         int numberOfOccupiedSeats = 50;
         int numberOfOccupiedStandingPlaces = 10 ;
 
-        int Person = numberOfOccupiedSeats + numberOfOccupiedStandingPlaces;
+        int person = numberOfOccupiedSeats + numberOfOccupiedStandingPlaces;
 
-        if (Person > wagonCapacity) {
+        if (person > wagonCapacity) {
             System.out.println(" Мест в вагоне, сидячих и стоячих больше нет.");
         }
 
-        if (Person >=  seatingCapacity) {
+        if (person >=  seatingCapacity) {
             System.out.println(" Мест в вагоне, сидячих больше нет.");
         } else {
             System.out.println(" Есть места.");
@@ -85,9 +85,9 @@ public class Main {
 
         // Задача 7
 
-        int one = 920;
-        int two = 1000;
-        int three = 96;
+        int one = 30;
+        int two = 3;
+        int three = 33;
 
         if (two > one && two > three) {
             System.out.println(" Наибольшее число: " + two);
